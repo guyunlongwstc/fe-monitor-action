@@ -1,17 +1,15 @@
 {
   "name": "fe-monitor-action",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-rc.2",
   "description": "前端行为采集",
   "main": "output/track.js",
   "typings": "types/index.d.ts",
   "scripts": {
-    "build": "rm -rf output && rollup --config scripts/rollup.config.prod.js",
-    "publish": "npm publish --tag latest",
-    "publish-beta": "npm publish --tag beta"
+    "build": "rm -rf output && rollup --config scripts/rollup.config.prod.js"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://guyunlong@icode.baidu.com:8235/baidu/baiducloud/bce-track"
+    "url": "https://github.com/guyunlongwstc/fe-monitor-action"
   },
   "author": "guyunlong",
   "license": "UNLICENSED",
